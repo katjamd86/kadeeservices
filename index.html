@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Assistant Dienst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <!-- Navigatie -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Virtual&nbsp;Assistant</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#over">Over mij</a></li>
+                <li><a href="#diensten">Diensten</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero sectie -->
+    <section id="home" class="hero" style="background-image: url('hero.jpg');">
+        <div class="hero-content">
+            <h1>Maak jouw bedrijf efficiënter</h1>
+            <p>Professionele ondersteuning zodat jij je kunt focussen op wat echt telt.</p>
+            <a href="#contact" class="button">Neem contact op</a>
+        </div>
+    </section>
+
+    <!-- Over mij -->
+    <section id="over" class="about">
+        <div class="container">
+            <h2>Over mij</h2>
+            <p>
+                Hallo! Ik ben jouw persoonlijke virtual assistant met ervaring in klantenservice, administratieve ondersteuning en meer. Ik help ondernemers en professionals om tijd te winnen door taken over te nemen die hen afleiden van hun kernactiviteiten. Met een passie voor talen (waaronder Pools) en een scherpe focus op klanttevredenheid zorg ik ervoor dat jouw klanten tevreden blijven en dat jouw processen soepel verlopen.
+            </p>
+        </div>
+    </section>
+
+    <!-- Diensten -->
+    <section id="diensten" class="services">
+        <div class="container">
+            <h2>Mijn diensten</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Virtual assistant</h3>
+                    <p>Allround ondersteuning voor jouw bedrijf: agendabeheer, e-mailbeheer, documentatie en meer. Ik zorg ervoor dat jouw dagelijkse werkzaamheden gestroomlijnd worden zodat jij tijd overhoudt.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Klantenservice</h3>
+                    <p>Professionele klantenservice via telefoon en e‑mail. Ik behandel vragen van klanten, volg verzoeken op en bied een vriendelijke en efficiënte ervaring om jouw merk positief te vertegenwoordigen.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Klanttevredenheidsonderzoeken</h3>
+                    <p>Ontwikkeling en uitvoering van surveys om inzicht te krijgen in de beleving van jouw klanten. Ik verzamel en analyseer feedback zodat je gericht kunt verbeteren.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Vertalingen (Pools)</h3>
+                    <p>Professionele vertalingen van en naar het Pools. Ideaal voor internationale communicatie, klantenservice en documentatie. Nauwkeurig en cultureel passend.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Voice‑over opdrachten</h3>
+                    <p>Een duidelijke en professionele stem voor jouw video's of audio‑projecten. Met zorg geleverd in zowel Nederlands als Pools om jouw boodschap helder over te brengen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Wat klanten zeggen</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <p>“Sinds ik met deze virtual assistant werk, kan ik mij volledig focussen op mijn bedrijf. De ondersteuning is snel, professioneel en altijd vriendelijk.”</p>
+                    <span>— Ondernemer, e‑commerce</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>“De klanttevredenheidsonderzoeken hebben ons inzicht gegeven in wat onze klanten echt willen. Dankzij de analyses hebben we onze dienstverlening sterk kunnen verbeteren.”</p>
+                    <span>— Manager, dienstverlenend bedrijf</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>“Voor onze internationale klanten is de Poolse vertaling en voice‑over ideaal. Het werk is van hoge kwaliteit en altijd op tijd geleverd.”</p>
+                    <span>— Teamlead, marketingbureau</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact opnemen</h2>
+            <p>Wil je meer weten of direct aan de slag? Vul hieronder het formulier in en ik neem zo spoedig mogelijk contact met je op.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Naam</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E‑mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Bericht</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button">Verstuur</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Jouw Virtual Assistant. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+</body>
+</html>
